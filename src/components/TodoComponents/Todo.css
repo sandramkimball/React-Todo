@@ -56,6 +56,12 @@ h2{
     font-size: 1.25rem;
     text-decoration: line-through;
     color: #0000008f;
+    cursor: pointer
+}
+
+.task:hover{
+    cursor: pointer;
+    color: #000000d2; 
 }
 
 button {
@@ -66,6 +72,7 @@ button {
     margin: 5px 15px;
     color: #000;
     font-family: Sawarabi Mincho;
+    cursor: pointer;
 }
 button:hover{
     transform: scale(1.025);
@@ -73,6 +80,7 @@ button:hover{
 
 .clear-button{
     margin-top: 30px;
+    cursor: pointer;
 }
 
 input{
